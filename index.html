@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penalty shootout</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col">
+         
+       
+        <img class="team-logo" src="./assets/man utd.png" alt="Manchester United">
+        <span class="name" id="team1-name"></span>
+        <div class="row spacing team1-roundscore container2" id="team-1-score">
+            <span class="col circle"></span>
+            <span class="col circle"></span>
+            <span class="col circle"></span>
+            <span class="col circle"></span>
+            <span class="col circle"></span>
+           
+        </div>
+        </div>
+        <div class="col">
+            <h2>
+            <span id="team1-score"></span>
+            <span>-</span>
+            <span id="team2-score"></span>
+            </h2>
+        </div>
+        
+    <div class="col">
+       
+        <img class="team-logo" src="./assets/man city.png" alt="Manchester City">
+        <span class="name" id="team2-name"></span>
+        <div class="row spacing container2" id="team-2-score">
+            <span class="col circle"></span>
+            <span class="col circle"></span>
+            <span class="col circle"></span>
+            <span class="col circle"></span>
+            <span class="col circle"></span>
+        </div>
+    </div>
+        </div>
+    <div class="row">
+        <button id="button" onclick="buttonclicked()"></button>
+    </div>
+   
+<div class="row" id="result" hidden></div>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>

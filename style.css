@@ -1,0 +1,117 @@
+body
+{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fpng.pngtree.com%2Fthumb_back%2Ffh260%2Fback_pic%2F03%2F77%2F64%2F7857c03d0e57cc1.jpg&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Ffootball&tbnid=jJXwbVy0aYVIyM&vet=12ahUKEwjR96Pwt7LvAhUAsksFHXq0CqAQMygAegUIARC4AQ..i&docid=Nd1r3VF3W3ZVAM&w=365&h=261&q=background%20images%20football%20with%20url&ved=2ahUKEwjR96Pwt7LvAhUAsksFHXq0CqAQMygAegUIARC4AQ");
+    
+}
+
+.container
+{
+height: 400px;    
+width: 700px;
+display: flex;
+flex-direction: column;
+background:rgb(7, 143, 120);
+padding: 50px;
+transition: 0.5s;
+background-size: 200%;
+border-radius: 20px;
+align-self: center;
+ background-image: linear-gradient(to right, orange, yellow,red );
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.col
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.row
+{
+    justify-content: space-evenly;
+       
+}
+
+.container>.col{
+    justify-content: space-evenly;
+}
+.team-logo{
+    height: 155px;
+    width: 170px;
+    border-radius: 55%;
+    border: 2px solid rgb(253, 253, 253);
+
+   
+}
+
+.name
+{
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.spacing
+{
+    font-size: xx-large;
+    font-weight: 800;
+    width: 200px;
+    justify-content: space-evenly;
+    
+}
+
+#button
+{
+  width: 150px;
+  margin-top: 50px;
+  padding: 10px;
+  display: relative;
+  font-size: larger;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% ;
+  color: rgba(199, 15, 15, 0.788);
+  border-radius: 10px;
+  border: none;
+   
+ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+}
+
+#button:hover 
+{
+  background-position: right center; 
+  box-shadow: 0 0 10px 0 black;
+}
+
+#result
+{
+    margin-top: 50px;
+    background-image: linear-gradient( #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: xx-large ;
+
+
+}
+
+.circle{
+    height:40px ;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    justify-content: space-evenly;
+  
+
+}
