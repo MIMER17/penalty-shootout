@@ -1,2 +1,2 @@
 # penalty-shootout
-web page 
+web page or a game.
